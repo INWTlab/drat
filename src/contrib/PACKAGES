@@ -1,0 +1,8 @@
+Package: rsync
+Version: 0.5.4
+Depends: R (>= 3.4.0)
+Imports: dat, data.table, jsonlite, openssl, tools
+Suggests: testthat, knitr, covr
+License: MIT + file LICENSE
+MD5sum: 3be4906e874f694fdd72d714c9ef0461
+NeedsCompilation: no
