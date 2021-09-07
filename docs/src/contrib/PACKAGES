@@ -15,3 +15,12 @@ Suggests: testthat, knitr, covr
 License: MIT + file LICENSE
 MD5sum: e6a9646487742e2005c49d13032ad0e2
 NeedsCompilation: no
+
+Package: rsync
+Version: 0.5.6
+Depends: R (>= 3.4.0)
+Imports: dat, data.table, jsonlite, openssl, tools
+Suggests: testthat, knitr, covr
+License: MIT + file LICENSE
+MD5sum: e0142a452b4761d2b55132333f285409
+NeedsCompilation: no
