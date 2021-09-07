@@ -22,5 +22,5 @@ Depends: R (>= 3.4.0)
 Imports: dat, data.table, jsonlite, openssl, tools
 Suggests: testthat, knitr, covr
 License: MIT + file LICENSE
-MD5sum: e0142a452b4761d2b55132333f285409
+MD5sum: 4d7da05b23595c3daa64282e9cef3c75
 NeedsCompilation: no
