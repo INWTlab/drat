@@ -6,6 +6,15 @@ License: MIT + file LICENSE
 MD5sum: 7afa8dc501254879ec699a68da98c744
 NeedsCompilation: no
 
+Package: mctools
+Version: 0.1.3
+Depends: R (>= 3.4.2)
+Imports: parallel, futile.logger
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 9e32d4fc0d6404a7248f1e47988f1626
+NeedsCompilation: no
+
 Package: rsync
 Version: 0.5.4
 Depends: R (>= 3.4.0)
