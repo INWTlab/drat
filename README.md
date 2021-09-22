@@ -16,7 +16,7 @@ after_success:
 
 Add a deploy key to your .travis.yml:
 
-1. Generate a new deploy key. Needs read access to public repos
+1. Generate a new personal access token. Needs read access to public repos
 2. Follow these steps on the command line:
 
 ```sh
