@@ -32,3 +32,12 @@ Suggests: testthat, knitr, covr
 License: MIT + file LICENSE
 MD5sum: 4d7da05b23595c3daa64282e9cef3c75
 NeedsCompilation: no
+
+Package: shinyMatrix
+Version: 0.6.1
+Depends: R (>= 3.5)
+Imports: shiny, jsonlite
+Suggests: testthat, covr
+License: MIT + file LICENSE
+MD5sum: e81d6cb38968be7a93dcf899fea0b816
+NeedsCompilation: no
