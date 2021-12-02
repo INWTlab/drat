@@ -52,6 +52,15 @@ License: MIT + file LICENSE
 MD5sum: 4d7da05b23595c3daa64282e9cef3c75
 NeedsCompilation: no
 
+Package: rsync
+Version: 0.5.7
+Depends: R (>= 3.4.0)
+Imports: dat, data.table, jsonlite, openssl, tools
+Suggests: testthat, knitr, covr
+License: MIT + file LICENSE
+MD5sum: 3b52fdcfe51cf7402fe519245ae2c370
+NeedsCompilation: no
+
 Package: shinyMatrix
 Version: 0.6.1
 Depends: R (>= 3.5)
