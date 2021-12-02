@@ -2,6 +2,12 @@
 
 The INWTLab drat repository.
 
+## To install from this repository
+
+```r
+options(repos = c(getOption("repos"), INWTLab = "https://inwtlab.github.io/drat/"))
+```
+
 ## Autodeploy R packages to this repo
 
 Add the following to your .travis.yml file:
