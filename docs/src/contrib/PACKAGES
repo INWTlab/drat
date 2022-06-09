@@ -16,6 +16,16 @@ License: MIT + file LICENSE
 MD5sum: 3ae0c3993e35ef7e6dbaae4c539e75b9
 NeedsCompilation: no
 
+Package: dbtools
+Version: 22.6.0
+Depends: methods
+Imports: DBI, RMariaDB, RMySQL, RSQLite, assertthat, data.table,
+        futile.logger, templates
+Suggests: lintr, testthat
+License: MIT + file LICENSE
+MD5sum: acb2066d9579b39bef471def06ee8b95
+NeedsCompilation: no
+
 Package: mctools
 Version: 0.1.3
 Depends: R (>= 3.4.2)
