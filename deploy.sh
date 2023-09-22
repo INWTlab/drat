@@ -17,4 +17,6 @@ addToDrat(){
   git push 2> /tmp/err.txt
 
 }
+R CMD build .
+PKG_TARBALL=`ls *.tar.gz`
 addToDrat
