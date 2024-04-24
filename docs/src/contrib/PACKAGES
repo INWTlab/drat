@@ -7,36 +7,6 @@ MD5sum: 7afa8dc501254879ec699a68da98c744
 NeedsCompilation: no
 
 Package: dbtools
-Version: 0.7.0
-Depends: methods
-Imports: DBI, RMariaDB, RMySQL, RSQLite, assertthat, data.table,
-        futile.logger, templates
-Suggests: lintr, testthat
-License: MIT + file LICENSE
-MD5sum: 3ae0c3993e35ef7e6dbaae4c539e75b9
-NeedsCompilation: no
-
-Package: dbtools
-Version: 22.6.0
-Depends: methods
-Imports: DBI, RMariaDB, RMySQL, RSQLite, assertthat, data.table,
-        futile.logger, templates
-Suggests: lintr, testthat
-License: MIT + file LICENSE
-MD5sum: acb2066d9579b39bef471def06ee8b95
-NeedsCompilation: no
-
-Package: dbtools
-Version: 22.8.0
-Depends: methods
-Imports: DBI, RMariaDB, RMySQL, RSQLite, assertthat, data.table,
-        futile.logger, stringi, templates
-Suggests: lintr, testthat
-License: MIT + file LICENSE
-MD5sum: 7a118492938d392f80c14e709456806d
-NeedsCompilation: no
-
-Package: dbtools
 Version: 22.8.1
 Depends: methods
 Imports: DBI, RMariaDB, RMySQL, RSQLite, assertthat, data.table,
@@ -56,51 +26,6 @@ MD5sum: 9e32d4fc0d6404a7248f1e47988f1626
 NeedsCompilation: no
 
 Package: rsync
-Version: 0.5.4
-Depends: R (>= 3.4.0)
-Imports: dat, data.table, jsonlite, openssl, tools
-Suggests: testthat, knitr, covr
-License: MIT + file LICENSE
-MD5sum: 3be4906e874f694fdd72d714c9ef0461
-NeedsCompilation: no
-
-Package: rsync
-Version: 0.5.5
-Depends: R (>= 3.4.0)
-Imports: dat, data.table, jsonlite, openssl, tools
-Suggests: testthat, knitr, covr
-License: MIT + file LICENSE
-MD5sum: e6a9646487742e2005c49d13032ad0e2
-NeedsCompilation: no
-
-Package: rsync
-Version: 0.5.6
-Depends: R (>= 3.4.0)
-Imports: dat, data.table, jsonlite, openssl, tools
-Suggests: testthat, knitr, covr
-License: MIT + file LICENSE
-MD5sum: 4d7da05b23595c3daa64282e9cef3c75
-NeedsCompilation: no
-
-Package: rsync
-Version: 0.5.7
-Depends: R (>= 3.4.0)
-Imports: dat, data.table, jsonlite, openssl, tools
-Suggests: testthat, knitr, covr
-License: MIT + file LICENSE
-MD5sum: 169bc34060ca71938008116d7629e192
-NeedsCompilation: no
-
-Package: rsync
-Version: 0.5.8
-Depends: R (>= 3.4.0)
-Imports: dat, data.table, jsonlite, openssl, tools
-Suggests: testthat, knitr, covr
-License: MIT + file LICENSE
-MD5sum: 1b8cd0afe1f1d8dd6b4f58c1f3daa665
-NeedsCompilation: no
-
-Package: rsync
 Version: 23.09.0
 Depends: R (>= 3.4.0)
 Imports: dat, data.table, jsonlite, openssl, tools
@@ -110,10 +35,10 @@ MD5sum: 5c0886c95bf8a5a6d116ef2a4593d1b1
 NeedsCompilation: no
 
 Package: shinyMatrix
-Version: 0.6.1
+Version: 0.8.0
 Depends: R (>= 3.5)
 Imports: shiny, jsonlite
 Suggests: testthat, covr
 License: MIT + file LICENSE
-MD5sum: e81d6cb38968be7a93dcf899fea0b816
+MD5sum: db01edda08d6f4760b79bc9d96c72222
 NeedsCompilation: no

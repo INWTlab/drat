@@ -1,8 +1,0 @@
-Package: shinyMatrix
-Version: 0.8.0
-Depends: R (>= 3.5)
-Imports: shiny, jsonlite
-Suggests: testthat, covr
-License: MIT + file LICENSE
-MD5sum: 274881cd1d299ec29f334b62423f2569
-NeedsCompilation: no
