@@ -40,5 +40,5 @@ Depends: R (>= 3.5)
 Imports: shiny, jsonlite
 Suggests: testthat, covr
 License: MIT + file LICENSE
-MD5sum: db01edda08d6f4760b79bc9d96c72222
+MD5sum: ce117541ce49a69891da8d351432319a
 NeedsCompilation: no
