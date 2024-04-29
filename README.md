@@ -10,29 +10,35 @@ options(repos = c(getOption("repos"), INWTLab = "https://inwtlab.github.io/drat/
 
 ## Autodeploy R packages to this repo
 
-Add the following to your .travis.yml file:
+Add a `drat.yaml` to `.github/workflows`:
+
+We are using the following gh-action: https://github.com/mikemahoney218/upload-to-drat-repo
+
 
 ```yml
-after_success:
-    - test $TRAVIS_PULL_REQUEST == "false" &&
-      test $TRAVIS_BRANCH == "master" &&
-      curl https://raw.githubusercontent.com/INWTlab/drat/main/deploy.sh > deploy.sh &&
-      bash deploy.sh
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'DESCRIPTION'
+  workflow_dispatch:
+
+jobs:
+  drat-upload:
+    runs-on: ubuntu-20.04
+    name: Drat Upload
+    steps:
+      - uses: mikemahoney218/upload-to-drat-repo@v0.3
+        with:
+          drat_repo: 'INWTlab/drat'
+          token: "${{ secrets.GH_ACTION_DRAT }}"
+          commit_message: "deploy to drat - update <YOURPACKAGENAME> via gh actions"
+          commit_email: "brother-mfc@inwt-statistics.de"
+          archive: true
 ```
 
-Add a deploy key to your .travis.yml:
-
-1. Generate a new personal access token. Needs read access to public repos
-2. Follow these steps on the command line:
-
-```sh
-# Install travis cli
-brew install travis
-# Login to travis -- easiest with another deploy-key
-travis login --com --deploy-key $GH_TOKEN
-# Generate secret and add to your .travis.yml
-cd <to your r package repository>
-travis encrypt GH_TOKEN=$GH_TOKEN --com --add env.global
-```
-
-3. Alternatively go to the settings of your project on travis-ci.com and add the env variable there.
+* edit `commit_message`: enter the correct name of your R-Package
+* add the Personal Access Token to your Repository
+   * under Setting > Secrets and Variables > Actions - *New Repository secret*
+   * Name: `GH_ACTION_DRAT`
