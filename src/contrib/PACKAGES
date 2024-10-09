@@ -7,13 +7,13 @@ MD5sum: 7afa8dc501254879ec699a68da98c744
 NeedsCompilation: no
 
 Package: dbtools
-Version: 22.8.1
+Version: 24.10.0
 Depends: methods
-Imports: DBI, RMariaDB, RMySQL, RSQLite, assertthat, data.table,
-        futile.logger, stringi, templates
+Imports: DBI, RMySQL, RSQLite, assertthat, data.table, futile.logger,
+        stringi, templates
 Suggests: lintr, testthat
 License: MIT + file LICENSE
-MD5sum: 75d259ecfa2390ba412eb272df1218cd
+MD5sum: 91df33f0b5d66af757b8c1bb439b737b
 NeedsCompilation: no
 
 Package: mctools
