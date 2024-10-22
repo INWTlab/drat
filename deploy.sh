@@ -5,7 +5,7 @@ addToDrat(){
 
   cd ..
   git clone https://$GH_TOKEN@github.com/inwtlab/drat.git
-  cd drat/docs
+  cd drat
   git config user.name "SW from Travis CI"
   git config user.email "sebastian.warnholz@inwt-statistics.de"
   git config --global push.default simple
