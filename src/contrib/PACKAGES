@@ -31,7 +31,7 @@ Depends: R (>= 3.4.0)
 Imports: dat, data.table, jsonlite, openssl, tools
 Suggests: testthat, knitr, covr
 License: MIT + file LICENSE
-MD5sum: 3c972ed3796f3bb88f59a206d8db1ff3
+MD5sum: 45a78de65e608bcfc006ff507cf45af2
 NeedsCompilation: no
 
 Package: shinyMatrix
