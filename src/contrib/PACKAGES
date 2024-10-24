@@ -26,12 +26,12 @@ MD5sum: 9e32d4fc0d6404a7248f1e47988f1626
 NeedsCompilation: no
 
 Package: rsync
-Version: 23.09.0
+Version: 24.10.0
 Depends: R (>= 3.4.0)
 Imports: dat, data.table, jsonlite, openssl, tools
-Suggests: testthat, knitr, covr
+Suggests: testthat, covr
 License: MIT + file LICENSE
-MD5sum: ddaff0fc19e1fe4014b369979359daf3
+MD5sum: ab853f2b2cbabca3a50f07e6d4bd8642
 NeedsCompilation: no
 
 Package: shinyMatrix
