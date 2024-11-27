@@ -8,6 +8,12 @@ The INWTLab drat repository.
 options(repos = c(getOption("repos"), INWTLab = "https://inwtlab.github.io/drat/"))
 ```
 
+## Install an older Version from the archive
+
+```r
+devtools::install_version("<package>", version = "<version>")
+```
+
 ## Autodeploy R packages to this repo
 
 Add a `drat.yaml` to `.github/workflows`:
